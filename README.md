@@ -1,6 +1,6 @@
 # npmtest-redux-saga
 
-#### test coverage for  [redux-saga (v0.14.6)](https://github.com/redux-saga/redux-saga#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-saga.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-saga) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-saga.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-saga)
+#### basic test coverage for  [redux-saga (v0.14.8)](https://github.com/redux-saga/redux-saga#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-saga.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-saga) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-saga.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-saga)
 
 #### Saga middleware for Redux to handle Side Effects
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-redux-saga/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-redux-saga/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-redux-saga/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-redux-saga/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-saga/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-saga/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-redux-saga/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-redux-saga/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-saga/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-saga/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-redux-saga/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-redux-saga/build/coverage.html/index.html)
 
@@ -74,10 +74,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "bc409aa0edaa4a7234759041cc70da62f37c6f13",
-        "tarball": "https://registry.npmjs.org/redux-saga/-/redux-saga-0.14.6.tgz"
+        "shasum": "ad01afabe02ec41a17df54e2e09aa236b30a7732",
+        "tarball": "https://registry.npmjs.org/redux-saga/-/redux-saga-0.14.8.tgz"
     },
-    "gitHead": "944eac74e20fa47e2a6ac927ce743f1e073dfdd2",
+    "gitHead": "0a8b5c9260e983086540670949ee7630415f9f99",
     "homepage": "https://github.com/redux-saga/redux-saga#readme",
     "jsnext:main": "es/index.js",
     "keywords": [
@@ -139,7 +139,8 @@
         "test-shop": "cross-env BABEL_ENV=cjs babel-node examples/shopping-cart/test/sagas.js | tap-spec"
     },
     "typings": "./index.d.ts",
-    "version": "0.14.6"
+    "version": "0.14.8",
+    "bin": {}
 }
 ```
 
